@@ -8,6 +8,7 @@ set smartindent
 set nowrap
 set tabstop=2
 set shiftwidth=2
+set termguicolors
 
 " fonts Settings -> italic & Bold fonts
 highlight Comment cterm=italic ctermfg=Grey gui=italic
@@ -34,7 +35,13 @@ Plug 'lewis6991/gitsigns.nvim'
 Plug 'nvim-tree/nvim-web-devicons'
 Plug 'romgrk/barbar.nvim'
 
+Plug 'savq/melange-nvim'
+Plug 'AlexvZyl/nordic.nvim', { 'branch': 'main' }
+
 call plug#end()
+
+colorscheme melange
+" colorscheme nordic
 
 " Compile Option and Key Mapping
 let g:python3_host_prog = 'path/to/python3'

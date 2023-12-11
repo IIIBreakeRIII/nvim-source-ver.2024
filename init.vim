@@ -9,6 +9,7 @@ set nowrap
 set tabstop=2
 set shiftwidth=2
 set termguicolors
+set wrap
 
 " fonts Settings -> italic & Bold fonts
 highlight Comment cterm=italic ctermfg=Grey gui=italic

@@ -1,5 +1,3 @@
-" NeoVim Configuration ver.2024
-
 set encoding=UTF-8
 set fileencodings=UTF-8,CP949
 syntax on

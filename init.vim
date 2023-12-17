@@ -12,6 +12,7 @@ set tabstop=2
 set shiftwidth=2
 set termguicolors
 set wrap
+set mousemoveevent
 
 " fonts Settings -> italic & Bold fonts
 highlight Comment cterm=italic ctermfg=Grey gui=italic
@@ -37,6 +38,7 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'lewis6991/gitsigns.nvim'
 Plug 'nvim-tree/nvim-web-devicons'
 Plug 'romgrk/barbar.nvim'
+" Plug 'akinsho/bufferline.nvim', { 'tag': '*' }
 
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.5' }
@@ -82,3 +84,8 @@ nmap <A-Bs> dd <CR>
 
 " copy to clipboard
 vmap <A-c> :'<, '> :w !pbcopy <CR>
+
+lua << EOF
+require("bufferline").setup{}
+EOF
+

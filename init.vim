@@ -86,6 +86,6 @@ nmap <A-Bs> dd <CR>
 vmap <A-c> :'<, '> :w !pbcopy <CR>
 
 lua << EOF
-require("bufferline").setup{}
+	require("bufferline").setup{}
 EOF
 

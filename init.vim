@@ -48,6 +48,9 @@ Plug 'AlexvZyl/nordic.nvim', { 'branch': 'main' }
 
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install' }
 
+Plug 'NeogitOrg/neogit',
+Plug 'sindrets/diffview.nvim',
+
 call plug#end()
 
 colorscheme melange
@@ -87,5 +90,6 @@ vmap <A-c> :'<, '> :w !pbcopy <CR>
 
 lua << EOF
 	require("bufferline").setup{}
+	require('neogit').setup{}
 EOF
 

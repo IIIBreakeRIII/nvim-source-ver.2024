@@ -3,7 +3,6 @@ local opts = { noremap = true, silent = true }
 
 -- Neogit keybindings Stage Status
 map('n', '<C-b>', '<Cmd>Neogit kind=split<CR>', opts)
--- map('n', '<C-s>, <Cmd>Neogit<CR>', opts)
 
 return {
 	"TimUntersbereger/neogit",
@@ -13,7 +12,6 @@ return {
 			kind = "vsplit",
 			signs = {
 				-- { CLOSED, OPENED }:q
-				-- 
 				section = { " ", " " },
 				item = { " ", " " },
 				hunk = { "", "" },

@@ -19,6 +19,7 @@ highlight Comment cterm=italic ctermfg=Grey gui=italic
 highlight Keyword cterm=italic ctermfg=Red gui=italic
 highlight Function cterm=italic ctermfg=LightRed gui=italic
 
+" Plugin
 call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.config/nvim/after')
 
 Plug 'nvim-treesitter/nvim-treesitter'

@@ -7,7 +7,6 @@ set number
 set ruler
 set autoindent
 set smartindent
-set nowrap
 set tabstop=2
 set shiftwidth=2
 set termguicolors
